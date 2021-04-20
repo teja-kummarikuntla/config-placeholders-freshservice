@@ -8,7 +8,7 @@
       <section>
         <picture>
           <img
-            src="http://placeholder.pics/svg/200/D6FFAA-7CFFD8/5728FF-B3B3B3/ticket_top_navigation"
+            src="http://placeholder.pics/svg/200/0cc7fb-5CBAFF/224460-224460/ticket_top_navigation"
             alt="ticket top navigation"
           />
         </picture>
@@ -26,9 +26,8 @@
 
     function getClientAPI(_client) {
       let client = _client;
-      // JS thread of exection invokes callback passed to on. 'app.activated' everytime freshdesk user clicks on the icon
       client.events.on('app.activated', function log() {
-        return console.log(`ticket_top_navigation: app is activated 🥁`);
+        return console.log(`ticket top navigation location: app is activated 🥁`);
       });
     }
   </script>
