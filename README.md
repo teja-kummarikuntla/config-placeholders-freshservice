@@ -61,7 +61,7 @@ App on Freshworks developer platform can be located in different placeholders. S
 **Apps render without UI**
 1. There are couple of app placeholders where app run in background and not backend.
 2. These placeholders generally have *background* in their name. For example, `ticket_background`,`new_ticket_background`, `change_background`,`new_change_background`.
-3. Apps those render without UI will load *scripts* as soon as user navigates to relavant page in Freshdesk. For example, the browser's js thread of execution will enter `.js` files in `ticket_background` when user navigates to *Ticket details page on Freshservice*
+3. Apps those render without UI will load *scripts* as soon as user navigates to relavant page in Freshservice. For example, the browser's js thread of execution will enter `.js` files in `ticket_background` when user navigates to *Ticket details page on Freshservice*
 
 
 
