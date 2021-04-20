@@ -1,21 +1,31 @@
-## Your First App
+# Freshdesk App Placeholders
 
-This app displays the name of the requester of a Freshservice ticket in the ticket_sidebar placeholder
+## Description:
 
-### Files and Folders
-    .
-    ├── README.md                     A file for your future self and developer friends to learn about app
-    ├── app                           A folder to put all files needed for frontend components
-    │   ├── index.html                A landing page for the user to use the app
-    │   ├── scripts                   JavaScript to handle app's frontend components business logic
-    │   │   └── app.js
-    │   └── styles                    A folder of all the styles for app
-    │       ├── images                A folder to put all the images
-    │       │   ├── icon.svg
-    │       │   └── rocket.svg
-    │       └── style.css
-    ├── config                        A folder to hold all the app's configuration files
-    │   └── iparams.json
-    └── manifest.json                 A JSON file holding meta data for app to run on platform
+App on Freshworks developer platform can be located in different placeholders. Some of them render with UI, without UI or simply serverless. This app contains the sample code that is all available for apps those run on browser in-product experience.
 
-Explore [more of app sample codes](https://github.com/freshworks/marketplace-sample-apps) on the Freshworks Github respository.
+## Screenshots:
+
+### Global Navigation Pane
+##### `full_page_app`  - The app icon is displayed on the left navigation pane and when clicked, the app page occupies the entire viewport.
+![](./screenshots/fullpage.png)
+
+### Ticket Details Page
+##### `ticket_sidebar` - The app is displayed in the right sidebar on the Ticket Details page and is loaded only after you click the app icon.
+![](./screenshots/ticket_sidebar.png)
+
+##### `ticket_requester_info` - The app is displayed on the Requester Details tab and is loaded only after you click the app icon.
+![](./screenshots/ticket_requester_info.png)
+
+##### `ticket_top_navigation` - The app is displayed on the top navigation bar on the Ticket Details page and is loaded only after you click the app icon.
+![](./screenshots/ticket_top_navigation.png)
+
+### Change Details Page
+
+
+
+
+
+
+
+
